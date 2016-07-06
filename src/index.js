@@ -1,5 +1,5 @@
-import netflixResult from 'src/netflix-result';
+import netflixResult from 'netflix-result';
 
-export default function (element) {
+export default function index(element) {
 
 }
