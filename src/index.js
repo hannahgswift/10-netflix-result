@@ -1,5 +1,6 @@
 import netflixResult from 'netflix-result';
 
-export default function index(element) {
+export default function index(movie) {
+  netflixResult(element, 'Lost');
 
 }
