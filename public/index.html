@@ -20,10 +20,11 @@
 
   <script type="text/javascript">
     let cat = require('index');
+    let netflixResult = require ('netflix-result');
     let element = document.querySelector('.movie');
     let movie = document.querySelector('.InputAddOn-field').value;
-
-    cat(element, 'Lost');
+    cat(element);
+    netflixResult(element, 'Lost');
 
 
 

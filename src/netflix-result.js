@@ -6,7 +6,9 @@ export default function netflixResult(element, movieTitle) {
   .then((res) => res.json())
   .then((data) => {
 
-    element.innerHTML = `
+    const movieThing = document.querySelector('.movie');
+
+    movieThing.innerHTML = `
 
 
       <div class="top-container">
