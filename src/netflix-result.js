@@ -7,7 +7,8 @@ export default function netflixResult(element, movieTitle) {
   .then((data) => {
 
     element.innerHTML = `
-    <div class="movie">
+
+
       <div class="top-container">
         <div class="title-container">
           <h1 class="movie-title">${data.show_title}</h1>
@@ -25,7 +26,6 @@ export default function netflixResult(element, movieTitle) {
           <h2 class="cast">Actors</h2>
           <p>${data.show_cast}</p>
         </div>
-      </div>
-    </div>`;
+      </div>`;
   });
 }
