@@ -10,7 +10,6 @@ export default function netflixResult(element, movieTitle) {
 
     movieThing.innerHTML = `
 
-
       <div class="top-container">
         <div class="title-container">
           <h1 class="movie-title">${data.show_title}</h1>
